@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baap er Bank</title>
+
+    <!-- tailwind css cdn link -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <h1 class="text-5xl text-center mt-16">&#128178 Welcome to <span class="text-pink-500 font-semibold">Baap er
+                Bank
+                &#128178</span>
+        </h1>
+    </header>
+
+    <main class="mx-auto bg-blue-400 mt-8">
+        <section class="text-white p-8">
+            <p id="invalid" class="text-center text-red-600"></p>
+            <h2 class="text-2xl font-medium text-center mb-4">Login</h2>
+            <div class="lg:w-2/4 mx-auto">
+                <input type="text" placeholder="your email" id="user-email"
+                    class="outline-none w-2/4 block mx-auto py-2 px-5 rounded-full my-4 bg-blue-400 border placeholder-white">
+
+                <input type="password" name="" id="user-password"
+                    class="outline-none w-2/4 block mx-auto py-2 px-5 rounded-full my-4 bg-blue-400 border placeholder-white"
+                    placeholder="your password">
+
+                <button id="submit-button"
+                    class="bg-green-500 px-5 py-2 mx-auto rounded-full font-medium w-2/4 block my-4">Login</button>
+                <p class="text-center">Forgot Password? <a href="password-generator.html"
+                        class="text-gray-900 font-medium" id="password-generate">Click Here</a></p>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="js/login.js"></script>
+    <!-- <script src="js/password-generat.js"></script> -->
+</body>
+
+</html>
